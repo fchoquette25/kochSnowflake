@@ -1,0 +1,6 @@
+Steps for Koch Snowflake:
+1) Equilateral triangle (base shape)
+2) Second third and forth segments are extended from triangled to create a snowflake shape
+3) BASE CASE = Recursion stops when the segments are smaller than the threshhold and the shape is no longer being divided
+4) The inputed function can shift the position of the segments to align them with the correct locatino on snowflake. ROTATION is important because it turns segments to create the triangular characteristice of the snowflake "arms".
+5) Create a recursice function that checks the base case to terminate recursion and splits each segment into four and applies transformation
